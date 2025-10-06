@@ -9,5 +9,5 @@ dependencies:
   - pip:
       # THE BELOW ONE IS NOT A REQUIRED LINE. - -e should fetch everything from requirements.txt but some people were facing an issue
       # You can just avoid using a requirements.txt and just add all dependencies here Ig - CONFIRM THIS
-      # - install -r requirements.txt 
+      - -r requirements.txt 
       - -e . # install local repo
