@@ -1,0 +1,3 @@
+from envtest import my_func_to_return_random_fact
+
+print(my_func_to_return_random_fact())
